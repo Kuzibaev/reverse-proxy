@@ -6,6 +6,6 @@ Open `cd realServer` realServer and run `go run .` it.
 
 Open `cd reverseServer` reverseServer and run `go run .` it.
 
-Run this two file and if we do some request like `curl 'http://localhost:8002/sompath`
+Run this two file and if we do some request like `curl 'http://localhost:8002/:path`
 
 we will get a response in JSON contains ip of client and path we requested.
